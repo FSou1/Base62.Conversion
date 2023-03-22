@@ -2,7 +2,7 @@
 
 Base conversion is an approach commonly used for URL shorteners. Base conversion helps to convert the same number between its different numbe representation systems.
 
-The conversion table is `[0-9a-zA-Z`]`:
+The conversion table is `[0-9a-zA-Z]`:
 
 ```c#
 private const string BASE62 = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
