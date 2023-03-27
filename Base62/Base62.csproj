@@ -1,9 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<PackageId>Base62</PackageId>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>1.0.0</Version>
+		<Authors>Maxim Zhukov (github.com/FSou1)</Authors>
+		<Description>
+			This client library allows to convert numbers into base62 strings (see Encode(999) > g7) and back (see Decode(g7) > 999).
+			Base conversion is an approach commonly used for URL shorteners.
+			Base conversion helps to convert the same number between its different numbe representation systems.
+		</Description>
+		<PackageTags>Base62;Base62 Conversion;Base62 Encode;Base62 Decode;</PackageTags>
+	</PropertyGroup>
 </Project>
