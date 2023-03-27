@@ -1,4 +1,4 @@
-# base62
+# Base62.Conversion
 
 Base conversion is an approach commonly used for URL shorteners. Base conversion helps to convert the same number between its different numbe representation systems.
 

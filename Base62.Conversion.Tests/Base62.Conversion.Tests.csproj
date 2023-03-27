@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Base62\Base62.csproj" />
+    <ProjectReference Include="..\Base62.Conversion\Base62.Conversion.csproj" />
   </ItemGroup>
 
 </Project>

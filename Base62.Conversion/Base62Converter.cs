@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Base62
+namespace Base62.Conversion
 {
     public static class Base62Converter
     {

@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base62", "Base62\Base62.csproj", "{A4DA25FE-0EB3-4C91-A0B7-23EE49DFD21A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base62.Conversion", "Base62.Conversion\Base62.Conversion.csproj", "{A4DA25FE-0EB3-4C91-A0B7-23EE49DFD21A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base62.Tests", "Base62.Tests\Base62.Tests.csproj", "{E2CBA376-ADDA-4BBB-8633-1F14491A0312}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base62.Conversion.Tests", "Base62.Conversion.Tests\Base62.Conversion.Tests.csproj", "{E2CBA376-ADDA-4BBB-8633-1F14491A0312}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{676C0FDC-EC57-4965-812A-E6B485A4DAD7}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		LICENSE.md = LICENSE.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

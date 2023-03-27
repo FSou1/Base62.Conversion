@@ -1,4 +1,4 @@
-namespace Base62.Tests
+namespace Base62.Conversion.Tests
 {
     [TestClass]
     public class Base62ConverterTests

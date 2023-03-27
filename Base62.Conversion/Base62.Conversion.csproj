@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<PackageId>Base62.Conversion</PackageId>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>1.0.0</Version>
+		<Authors>Maxim Zhukov (github.com/FSou1)</Authors>
+		<PackageProjectUrl>https://github.com/FSou1/Base62.Conversion</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/FSou1/Base62.Conversion</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+		<Description>
+			This client library allows to convert numbers into base62 strings (see Encode(999) > g7) and back (see Decode(g7) > 999).
+			Base conversion is an approach commonly used for URL shorteners.
+			Base conversion helps to convert the same number between its different numbe representation systems.
+		</Description>
+		<PackageTags>Base62;Url-Shortener;Base62 Conversion;Base62 Encode;Base62 Decode;Encoder;Decoder;Conversion;</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="..\LICENSE.md">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+	
+	<PropertyGroup Condition="$(Configuration) == 'Release'">
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+	</PropertyGroup>
+</Project>
