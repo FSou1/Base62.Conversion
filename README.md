@@ -1,6 +1,6 @@
 # Base62.Conversion
 
-Base conversion is an approach commonly used for URL shorteners. Base conversion helps to convert the same number between its different numbe representation systems.
+Base conversion is an approach commonly used for URL shorteners. Base conversion helps to convert the same number between its different number representation systems.
 
 The conversion table is `[0-9a-zA-Z]`:
 
