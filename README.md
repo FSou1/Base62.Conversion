@@ -36,3 +36,4 @@ References:
 
 - [Base62 table](https://en.wikipedia.org/wiki/Base62)
 - [Base62 Encoder Decoder online tool](https://www.scopulus.co.uk/tools/hexconverter.htm)
+- https://www.nuget.org/packages/Base62.Conversion
