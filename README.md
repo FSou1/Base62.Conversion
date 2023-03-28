@@ -18,6 +18,14 @@ where `g` and `7` are the 16th and 7th elements of the `BASE62`.
 
 ## Usage
 
+Install:
+
+```
+NuGet\Install-Package Base62.Conversion -Version 1.0.0
+```
+
+Use:
+
 ```c#
 var encoded = Base62Converter.Encode(2009215674938); // zn9edcu
 
